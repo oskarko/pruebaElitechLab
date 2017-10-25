@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23FB0B0799B2AF3B6DE847BD /* Pods_ElitechLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB1346E666CDCDF50E696A8 /* Pods_ElitechLab.framework */; };
 		F1285BF81F14A7DB0051F275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1285BF71F14A7DB0051F275 /* AppDelegate.swift */; };
-		F1285BFA1F14A7DB0051F275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1285BF91F14A7DB0051F275 /* ViewController.swift */; };
 		F1285BFD1F14A7DB0051F275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1285BFB1F14A7DB0051F275 /* Main.storyboard */; };
 		F1285BFF1F14A7DB0051F275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1285BFE1F14A7DB0051F275 /* Assets.xcassets */; };
 		F1285C021F14A7DB0051F275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1285C001F14A7DB0051F275 /* LaunchScreen.storyboard */; };
+		F1285C0A1F14AA840051F275 /* ELMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1285C091F14AA840051F275 /* ELMainViewController.swift */; };
+		F1285C0C1F14AEDC0051F275 /* TechcrunchItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1285C0B1F14AEDC0051F275 /* TechcrunchItem.swift */; };
+		F1285C0E1F14B1CB0051F275 /* TechcrunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1285C0D1F14B1CB0051F275 /* TechcrunchService.swift */; };
+		F1285C121F14D7BF0051F275 /* ELErrorMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1285C111F14D7BF0051F275 /* ELErrorMessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CFF797ADFAF37BDC9BE0D28 /* Pods-ElitechLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElitechLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElitechLab/Pods-ElitechLab.debug.xcconfig"; sourceTree = "<group>"; };
+		A10438563B09AB79C20A0BD3 /* Pods-ElitechLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElitechLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElitechLab/Pods-ElitechLab.release.xcconfig"; sourceTree = "<group>"; };
+		EFB1346E666CDCDF50E696A8 /* Pods_ElitechLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElitechLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1285BF41F14A7DB0051F275 /* ElitechLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElitechLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1285BF71F14A7DB0051F275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1285BF91F14A7DB0051F275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1285BFC1F14A7DB0051F275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1285BFE1F14A7DB0051F275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1285C011F14A7DB0051F275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1285C031F14A7DB0051F275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1285C091F14AA840051F275 /* ELMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELMainViewController.swift; sourceTree = "<group>"; };
+		F1285C0B1F14AEDC0051F275 /* TechcrunchItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechcrunchItem.swift; sourceTree = "<group>"; };
+		F1285C0D1F14B1CB0051F275 /* TechcrunchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechcrunchService.swift; sourceTree = "<group>"; };
+		F1285C111F14D7BF0051F275 /* ELErrorMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELErrorMessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FB0B0799B2AF3B6DE847BD /* Pods_ElitechLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491DA753B5E42570BEC290E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB1346E666CDCDF50E696A8 /* Pods_ElitechLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE1883EB860EAB7C4DF1B98C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CFF797ADFAF37BDC9BE0D28 /* Pods-ElitechLab.debug.xcconfig */,
+				A10438563B09AB79C20A0BD3 /* Pods-ElitechLab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F1285BEB1F14A7DB0051F275 = {
 			isa = PBXGroup;
 			children = (
 				F1285BF61F14A7DB0051F275 /* ElitechLab */,
 				F1285BF51F14A7DB0051F275 /* Products */,
+				EE1883EB860EAB7C4DF1B98C /* Pods */,
+				491DA753B5E42570BEC290E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,33 @@
 		F1285BF61F14A7DB0051F275 /* ElitechLab */ = {
 			isa = PBXGroup;
 			children = (
+				F1285C141F14E8F80051F275 /* RestService */,
+				F1285C131F14E8E00051F275 /* ViewControllers */,
 				F1285BF71F14A7DB0051F275 /* AppDelegate.swift */,
-				F1285BF91F14A7DB0051F275 /* ViewController.swift */,
 				F1285BFB1F14A7DB0051F275 /* Main.storyboard */,
 				F1285BFE1F14A7DB0051F275 /* Assets.xcassets */,
 				F1285C001F14A7DB0051F275 /* LaunchScreen.storyboard */,
 				F1285C031F14A7DB0051F275 /* Info.plist */,
 			);
 			path = ElitechLab;
+			sourceTree = "<group>";
+		};
+		F1285C131F14E8E00051F275 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1285C091F14AA840051F275 /* ELMainViewController.swift */,
+				F1285C111F14D7BF0051F275 /* ELErrorMessageViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F1285C141F14E8F80051F275 /* RestService */ = {
+			isa = PBXGroup;
+			children = (
+				F1285C0D1F14B1CB0051F275 /* TechcrunchService.swift */,
+				F1285C0B1F14AEDC0051F275 /* TechcrunchItem.swift */,
+			);
+			name = RestService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1285C061F14A7DB0051F275 /* Build configuration list for PBXNativeTarget "ElitechLab" */;
 			buildPhases = (
+				885990BBA7B79D1FF6893AC8 /* [CP] Check Pods Manifest.lock */,
 				F1285BF01F14A7DB0051F275 /* Sources */,
 				F1285BF11F14A7DB0051F275 /* Frameworks */,
 				F1285BF21F14A7DB0051F275 /* Resources */,
+				58A5DC23EB2AD8A4CA6ED5C5 /* [CP] Embed Pods Frameworks */,
+				0801E4381AAC98FB4E363037 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +183,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0801E4381AAC98FB4E363037 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElitechLab/Pods-ElitechLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A5DC23EB2AD8A4CA6ED5C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElitechLab/Pods-ElitechLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		885990BBA7B79D1FF6893AC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1285BF01F14A7DB0051F275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1285BFA1F14A7DB0051F275 /* ViewController.swift in Sources */,
+				F1285C121F14D7BF0051F275 /* ELErrorMessageViewController.swift in Sources */,
+				F1285C0E1F14B1CB0051F275 /* TechcrunchService.swift in Sources */,
+				F1285C0C1F14AEDC0051F275 /* TechcrunchItem.swift in Sources */,
 				F1285BF81F14A7DB0051F275 /* AppDelegate.swift in Sources */,
+				F1285C0A1F14AA840051F275 /* ELMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,25 +363,31 @@
 		};
 		F1285C071F14A7DB0051F275 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFF797ADFAF37BDC9BE0D28 /* Pods-ElitechLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ElitechLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.org.ElitechLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F1285C081F14A7DB0051F275 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10438563B09AB79C20A0BD3 /* Pods-ElitechLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ElitechLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.org.ElitechLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -301,6 +410,7 @@
 				F1285C081F14A7DB0051F275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
